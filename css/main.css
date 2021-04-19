@@ -118,3 +118,22 @@ body {
 }
 
 /*---- About Section ----*/
+.about-content {
+    display: flex;
+}
+
+.about-description {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 600px;
+}
+
+.about-image {
+    width: 50%;
+    height: 320px;
+    border-radius: 8px;
+    margin-right: 24px;
+    object-fit: cover;
+}
+
